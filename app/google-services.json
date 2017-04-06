@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "960776327051",
+    "firebase_url": "https://hilarious-78dcc.firebaseio.com",
+    "project_id": "hilarious-78dcc",
+    "storage_bucket": "hilarious-78dcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960776327051:android:61f599edeab01e60",
+        "android_client_info": {
+          "package_name": "com.geomatics.hilarious"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960776327051-d52a7k2lgij10e8ss3mfknml6hh8r2a6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geomatics.hilarious",
+            "certificate_hash": "4AE9BE2D5CB9090EE285FFB3AF8C7AF9B668EEC8"
+          }
+        },
+        {
+          "client_id": "960776327051-rl8ktoq56r8t115f0pmoji9hnsn35vpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnqVJa1fKTCJ1rz_h18EDpaystROlPRLk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960776327051-rl8ktoq56r8t115f0pmoji9hnsn35vpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

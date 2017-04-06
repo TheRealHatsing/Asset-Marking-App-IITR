@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/location"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Latitude and Longitude"
+
+        android:textSize="25dp"
+        android:fontFamily="Roboto-regular" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+         />
+
+    <TextView
+        android:id="@+id/textview_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textview_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="22dp" />
+
+    <Button
+        android:text="Capture Location"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:textColor="#ffffffff"
+        android:fontFamily="Roboto-medium"
+        android:layout_gravity="center_vertical|center_horizontal" />
+
+</LinearLayout>

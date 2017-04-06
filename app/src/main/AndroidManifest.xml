@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.geomatics.hilarious">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".ProfileActivity"
+            android:parentActivityName="com.geomatics.hilarious.Splash"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ForgotPassword"
+            android:parentActivityName="com.geomatics.hilarious.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Uploadimage"
+            android:screenOrientation="portrait"/>
+
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".AndroidLocation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Credits"
+            android:parentActivityName="com.geomatics.hilarious.Splash"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Splash"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Upload_Video"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Medical"
+            android:parentActivityName="com.geomatics.hilarious.ProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Transport"
+            android:parentActivityName="com.geomatics.hilarious.ProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".School"
+            android:parentActivityName="com.geomatics.hilarious.ProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Water"
+            android:parentActivityName="com.geomatics.hilarious.ProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Other"
+            android:parentActivityName="com.geomatics.hilarious.ProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.geomatics.hilarious.Splash"/>
+        <activity android:name=".Banks"
+            android:parentActivityName="com.geomatics.hilarious.ProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Power"
+            android:parentActivityName="com.geomatics.hilarious.ProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Religious"
+            android:parentActivityName="com.geomatics.hilarious.ProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Commercial"
+            android:parentActivityName="com.geomatics.hilarious.ProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".dashboard"
+            android:parentActivityName="com.geomatics.hilarious.Splash"
+            android:screenOrientation="portrait"/>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Maps"
+            android:label="@string/title_activity_maps"></activity>
+    </application>
+
+</manifest>
